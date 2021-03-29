@@ -83,9 +83,9 @@ if (j <= k && k <= l) {
 
 //Assignment 5
 
-let t ="";
-let o = 9;
-let p = 0;
+let t =" ";
+let o = 1;
+let p = 9;
 
 	if (o < p) {
 		for (var i = o; i <= p; i++) {
@@ -99,10 +99,44 @@ let p = 0;
 		}
 	}
 	console.log(t);
-var x =1;
+var x = 1;
 var y = 100;
     var s = 0;
 	for (var i = x; i <= y; i++) {
-		s=s+i;
+		s = s + i;
 	}
-	console.log(`Sum of the numbers between ${x} and ${y} is ${s}`);
+	console.log(`Sum of the numbers between ${x} and ${y} is: ${s}`);
+
+var n1 = 1;
+var n2 = 7;
+var n3 = 2;
+var n4 = 3;
+    console.log(`Sum of digits of ${n1}${n2}${n3}${n4} is ${n1 + n2 + n3 + n4}`);
+
+function text() {
+    console.log ('"Wow, it worked!"')
+}
+    text()
+
+    console.log(Math.floor(Math.random() *10));
+    console.log(Math.floor(Math.random() *10));
+    console.log(Math.floor(Math.random() *10));
+    console.log(Math.floor(Math.random() *10));
+    console.log(Math.floor(Math.random() *10));
+
+
+//Games Magic Ball
+const Number = Math.random();
+function play() {
+    
+    if (Number === 0) {
+        console.log("Yes");
+    } else if (Number === 1) {
+        console.log("No");
+    } else {
+        console.log ("Ask a question!");
+    }
+}
+
+
+    play ()
